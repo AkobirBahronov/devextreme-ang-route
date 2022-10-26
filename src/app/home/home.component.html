@@ -1,0 +1,9 @@
+<div class="right-content">
+    <dx-tree-list id="id" [dataSource]="continents" itemsExpr="items" dataStructure="tree" [showRowLines]="true"
+        [showBorders]="true" [columnAutoWidth]="true">
+        <dxi-column dataField="text" caption="Text"></dxi-column>
+        <dxi-column dataField="fullName"></dxi-column>
+        <dxi-column dataField="population"></dxi-column>
+        <dxi-column dataField="area"></dxi-column>
+    </dx-tree-list>
+</div>

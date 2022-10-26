@@ -1,0 +1,24 @@
+::ng-deep .container {
+  position: relative;
+  min-height: 530px;
+}
+
+::ng-deep .container .left-content {
+  min-height: 530px;
+}
+
+::ng-deep .left-content {
+  display: inline-block;
+  width: 180px;
+  padding: 0 10px 10px;
+  background-color: rgba(191, 191, 191, 0.15);
+  box-shadow: -5px 0 14px -8px rgba(0, 0, 0, 0.25) inset;
+}
+
+::ng-deep
+  .left-content
+  .dx-treeview-node.dx-state-selected
+  > .dx-item
+  > .dx-item-content {
+  font-weight: 500;
+}

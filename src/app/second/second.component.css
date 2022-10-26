@@ -1,0 +1,7 @@
+::ng-deep .right-content {
+  position: absolute;
+  right: 0;
+  left: 220px;
+  top: 80px;
+  height: 100%;
+}
